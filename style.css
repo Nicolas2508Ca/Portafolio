@@ -858,3 +858,38 @@ body
         width: 85%;
     }
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 88px;
+    z-index: 1;
+    background-color: #2A7AE4;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    color: #2A7AE4;
+    border: 3px solid #2A7AE4;
+    cursor: url(/assets/cursor.png), pointer;
+  }
