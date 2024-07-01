@@ -177,6 +177,11 @@ body
     padding-top: 52px;
 }
 
+.skills__img img
+{
+    width: 32px;
+}
+
 .skills__name
 {
     list-style: none;
