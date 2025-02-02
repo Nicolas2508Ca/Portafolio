@@ -102,40 +102,6 @@ body
     
 }
 
-/*Sobre mi*/
-.about
-{
-    padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 15px;
-    background-color: lightcyan;
-    display: flex;
-}
-
-.about__container
-{
-    padding-right: 100px;
-    padding-bottom: 5px;
-}
-
-.about__title
-{
-    font-size: 30px;
-}
-
-.about__paragraph
-{
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    font-size: 120%;
-}
-
-.pdf
-{
-    display: none;
-}
-
 /*Skills*/
 
 .skills
@@ -144,7 +110,7 @@ body
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5px;
-    background-color: lightgray;
+    background-color: lightcyan;
 }
 
 .skills__title
@@ -238,7 +204,7 @@ body
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 40px;
-    background-color: lightgray;
+    background-color: lightcyan;
 }
 
 .hobbies__title
@@ -326,7 +292,7 @@ body
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 30px;
-    background-color: lightcyan;
+    background-color: lightgray;
 }
 
 .academic__title
@@ -402,7 +368,7 @@ body
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 40px;
-    background-color: lightgray;
+    background-color: lightcyan;
 }
 
 .experience__section__title
@@ -507,7 +473,7 @@ body
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 50px;
-    background-color: lightcyan;
+    background-color: lightgray;
 }
 
 .formcontato__contacto
