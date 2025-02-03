@@ -17,8 +17,8 @@ body
     background: #f9f9f9;
     display: flex;
     justify-content:space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .menu__list
@@ -40,11 +40,6 @@ body
     cursor: url(/assets/cursor.png), pointer;
 }
 
-.menu__list__item__contato
-{
-    margin-top: 5px;
-}
-
 .menu__link
 {
     text-decoration: none;
@@ -60,8 +55,8 @@ body
 /*Banner*/
 .title
 {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: lightgray;
 }
 
@@ -69,21 +64,21 @@ body
 {
     display: flex;
     justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .title__profile
 {
     order: 1;
-    padding-top: 2%;
-    padding-bottom: 2%;
     width: 18%;
     border-radius: 30%;
-    
+    border: 3px solid black;
 }
 
 .title__container
 {
-    padding-right: 10px;
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,10 +101,10 @@ body
 
 .skills
 {
-    padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5px;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
     background-color: lightcyan;
 }
 
@@ -178,12 +173,14 @@ body
 {
     background-color: white;
     transform: perspective(500px) rotateY(0deg);
+    border: 1px solid black;
 }
 
 .skills__box__back
 {
     background-color: lightcyan;
     transform: perspective(500px) rotateY(180deg);
+    border: 1px solid black;
 }
 
 .skills__box:hover .skills__box__front
@@ -196,101 +193,12 @@ body
     transform: perspective(500px) rotateY(360deg);
 }
 
-/*Hobbies*/
-
-.hobbies
-{
-    padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 40px;
-    background-color: lightcyan;
-}
-
-.hobbies__title
-{
-    text-align: center;
-    font-size: 30px;
-}
-
-.hobbies__line
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.hobbies__box
-{
-    margin-bottom: 20px;
-    position: relative;
-    width: 160px;
-    height: 160px;
-    margin-top: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.hobbies__img
-{
-    list-style: none;
-    padding-top: 52px;
-}
-
-.hobbies__name
-{
-    list-style: none;
-    padding-top: 40px;
-    font-size: 120%;
-    margin-bottom: 10px;
-}
-
-.hobbies__list
-{
-    padding-left: 0;
-}
-
-.hobbies__box div
-{
-    text-align: center;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 160px;
-    height: 160px;
-    backface-visibility: hidden;
-    transition: 1s;
-}
-
-.hobbies__box__front
-{
-    background-color: white;
-    transform: perspective(500px) rotateY(0deg);
-}
-
-.hobbies__box__back
-{
-    background-color: lightcyan;
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.hobbies__box:hover .hobbies__box__front
-{
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.hobbies__box:hover .hobbies__box__back
-{
-    transform: perspective(500px) rotateY(360deg);
-}
-
 /*Formacion academica*/
 .academic
 {
     padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 30px;
     background-color: lightgray;
 }
@@ -365,8 +273,8 @@ body
 .experience
 {
     padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 40px;
     background-color: lightcyan;
 }
@@ -403,7 +311,7 @@ body
     width: 80%;
     align-items: center;
     border: 3px solid black;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -470,8 +378,8 @@ body
 .formcontato
 {
     padding-top: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 50px;
     background-color: lightgray;
 }
@@ -491,10 +399,11 @@ body
     flex-direction: column;
     align-items: center;
     width: 7%;
-    background-color: lightgray;
+    background-color: lightcyan;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 30px;
+    border: 3px solid black;
 }
 
 .formcontato__img
