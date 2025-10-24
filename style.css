@@ -71,7 +71,7 @@ body
 .title__profile
 {
     order: 1;
-    width: 18%;
+    width: 22%;
     border-radius: 30%;
     border: 3px solid black;
 }
@@ -178,7 +178,7 @@ body
 
 .skills__box__back
 {
-    background-color: lightcyan;
+    background-color: lightgray;
     transform: perspective(500px) rotateY(180deg);
     border: 1px solid black;
 }
